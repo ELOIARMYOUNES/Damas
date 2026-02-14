@@ -16,7 +16,7 @@ Clone the repository:
 
 ```python
 # Install the wheel
-!pip install /kaggle/input/models/youneseloiarm/damas-library-001/other/default/1/damas-package/dist/damas-0.1.0-py3-none-any.whl
+!pip install damas-0.1.0-py3-none-any.whl
 # By kagglehub
 import kagglehub
 
