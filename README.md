@@ -17,7 +17,13 @@ Clone the repository:
 ```python
 # Install the wheel
 !pip install /kaggle/input/models/youneseloiarm/damas-library-001/other/default/1/damas-package/dist/damas-0.1.0-py3-none-any.whl
+# By kagglehub
+import kagglehub
 
+# Download latest version
+path = kagglehub.model_download("youneseloiarm/damas-library-001/other/default")
+
+print("Path to model files:", path)
 # Test the import
 from damas import *
 
